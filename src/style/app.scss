@@ -1,0 +1,40 @@
+@import "_main";
+@import "fonts";
+
+img{
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100px;
+      height: 100px;
+      background-color: white;
+      border-radius: 10px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        padding: 15px;
+        box-sizing: border-box;
+        filter: brightness(0.5);
+      }
+    }
+  }
+}

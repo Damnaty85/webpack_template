@@ -1,0 +1,12 @@
+$primary-color: #2e878a;
+$font-color: #ffffff;
+$primary-font: 'Source Sans Pro', sans-serif;
+
+body {
+  color: $font-color;
+  background-image: url("/src/image/background/3b8ad2c7b1be2caf24321c852103598a.webp");
+  background-size: cover;
+  text-align: center;
+  font-family: $primary-font;
+}
+
